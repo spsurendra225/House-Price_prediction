@@ -17,7 +17,7 @@ print(data.head())
 # Handle missing values
 data = data.dropna()
 
-# Select features (example)
+
 # Change column names based on your dataset
 X = data[['area', 'bedrooms', 'bathrooms']]
 y = data['price']
