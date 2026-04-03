@@ -8,8 +8,6 @@ from sklearn import metrics
 
 # Load dataset
 data = pd.read_csv("data.csv")
-print(f"DEBUG: Column names are: {list(data.columns)}")
-# This removes any hidden spaces at the start or end of your column names
 data.columns = data.columns.str.strip()
 print(f"DEBUG: Column names after stripping are: {list(data.columns)}")
 
