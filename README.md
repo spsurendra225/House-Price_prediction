@@ -30,7 +30,8 @@ This is a beginner Machine Learning project that predicts house prices using Lin
 
 - Shows predicted vs actual graph
 - Displays R² score
-- ![Output](output.png)(output1.png)
+- ![Output](output.png)
+- ![Output](output1.png)
 
 🎯 Purpose
 
